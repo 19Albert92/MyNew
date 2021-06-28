@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lesson_2</string>
+    <string name="app_name">Kanculator</string>
 
     <string name="button_1"> 1 </string>
     <string name="button_2"> 2 </string>
@@ -23,5 +23,8 @@
     <string name="cal_result"> = </string>
     <string name="write_number">Выберите цифру!</string>
 
+    <string name="start">Начать</string>
+    <string name="theme">выбор темы</string>
+    <string name="enterName">Введите ваше имя</string>
 
 </resources>

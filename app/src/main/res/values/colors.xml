@@ -14,4 +14,6 @@
     <!--nightTheme-->
     <color name="colors_button_night">#3D73A3</color>
     <color name="colors_buttonOperation_night">#E53935</color>
+    <color name="backgrount_homeActivity">#9F000000</color>
+    <color name="color_hint">#8AFFFFFF</color>
 </resources>

@@ -42,10 +42,45 @@
         <item name="android:theme">@style/buttons_operation_theme</item>
     </style>
 
+    <style name="button_homeLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/start</item>
+        <item name="android:textSize">@dimen/textSize_buttonHomeLayout</item>
+        <item name="android:layout_marginVertical">@dimen/buttonStart_homeLayoutMargin</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Button_homelayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">@string/enterName</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColorHint">@color/color_hint</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/textSize_homeText</item>
+        <item name="android:ems">@dimen/ems_home</item>
+    </style>
+
+    <style name="switch_home">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/theme</item>
+        <item name="android:textSize">@dimen/textSize_homeText</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
     <style name="linearHome_master">
         <item name="android:orientation">vertical</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="linearHome" parent="linearHome_master">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/backgrount_homeActivity</item>
     </style>
 
     <style name="buttons_number">
