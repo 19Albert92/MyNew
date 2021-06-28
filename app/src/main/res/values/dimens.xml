@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="distanceButtons">5dp</dimen>
+    <dimen name="distanceButtons_land">5dp</dimen>
+    <dimen name="master_linearPadding">40dp</dimen>
+    <dimen name="master_linearHorizont">150dp</dimen>
+    <dimen name="zero">0dp</dimen>
+
+    <dimen name="master_marginHorizont">0</dimen>
+    <dimen name="editTextResult_bottoms">50dp</dimen>
+    <dimen name="editTextResult_bottoms_land">10dp</dimen>
+    <dimen name="iconPadding">1dp</dimen>
+    <dimen name="iconSize">30dp</dimen>
+    <dimen name="editText_size">35sp</dimen>
+    <dimen name="radius_button">25dp</dimen>
+    <dimen name="button_textSize">18sp</dimen>
+    <dimen name="buttonZero_weight">2.1</dimen>
+    <dimen name="button_weight">1</dimen>
+</resources>
