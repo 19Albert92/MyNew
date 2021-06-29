@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linearHome">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextHome"
+        style="@style/Button_homelayout" />
+
+    <Button
+        android:id="@+id/button_home"
+        style="@style/button_homeLayout" />
+
+    <Switch
+        android:id="@+id/switchTheme"
+        style="@style/switch_home" />
+
+</LinearLayout>

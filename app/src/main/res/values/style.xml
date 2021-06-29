@@ -58,10 +58,9 @@
         <item name="android:gravity">center</item>
         <item name="android:textColorHint">@color/color_hint</item>
         <item name="android:backgroundTint">@color/white</item>
-        <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">@dimen/textSize_homeText</item>
-        <item name="android:ems">@dimen/ems_home</item>
+<!--        <item name="android:ems">@dimen/ems_home</item>-->
     </style>
 
     <style name="switch_home">

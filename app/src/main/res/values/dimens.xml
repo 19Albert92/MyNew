@@ -17,7 +17,6 @@
     <dimen name="buttonZero_weight">2.1</dimen>
     <dimen name="button_weight">1</dimen>
     <dimen name="textSize_homeText">25sp</dimen>
-    <dimen name="ems_home">8</dimen>
     <dimen name="textSize_buttonHomeLayout">35sp</dimen>
     <dimen name="buttonStart_homeLayoutMargin">35dp</dimen>
 </resources>

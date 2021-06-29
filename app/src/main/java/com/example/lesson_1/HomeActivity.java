@@ -13,8 +13,7 @@ import android.widget.Switch;
 public class HomeActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button buttonHome;
-    EditText edHome;
-    Switch aSwitch;
+    EditText editTextHome;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,15 +24,14 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         buttonHome.setOnClickListener(this);
         Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/ViaodaLibre-Regular.ttf");
         buttonHome.setTypeface(tf);
-        edHome = (EditText) findViewById(R.id.editTextHome);
-        edHome.setTypeface(tf);
-        aSwitch = (Switch) findViewById(R.id.switchHome);
+        editTextHome = (EditText) findViewById(R.id.editTextHome);
+        editTextHome.setTypeface(tf);
     }
 
     @Override
     public void onClick(View v) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("name", edHome.getText().toString());
+        Intent intent = new Intent("action.myCanculator.show");
+        intent.putExtra("name", editTextHome.getText().toString());
         startActivity(intent);
     }
 }
